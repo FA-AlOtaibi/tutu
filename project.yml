@@ -1,0 +1,21 @@
+name: SmartBudget
+options:
+  bundleIdPrefix: com.fahad
+  deploymentTarget:
+    iOS: "17.0"
+targets:
+  SmartBudget:
+    type: application
+    platform: iOS
+    sources: [SmartBudget]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.fahad.smartbudget
+        SWIFT_VERSION: 5.0
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: "ميزانيتي"
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: YES
+        TARGETED_DEVICE_FAMILY: "1"
+    scheme:
+      testTargets: []
